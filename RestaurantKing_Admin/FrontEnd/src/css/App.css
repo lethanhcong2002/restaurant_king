@@ -1,0 +1,6 @@
+.nav-link.active {
+    background-color: aquamarine;
+    /* Example background color */
+    font-weight: bold;
+    /* Make the active link bold */
+}

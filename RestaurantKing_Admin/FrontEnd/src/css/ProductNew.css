@@ -1,0 +1,72 @@
+/* ProductNew.css */
+
+/* Định dạng cho các nhóm trường trong form */
+.form-group {
+    margin-bottom: 1.5rem;
+    /* Khoảng cách giữa các nhóm trường */
+}
+
+/* Định dạng cho label */
+.custom-label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+/* Định dạng cho input và textarea */
+.custom-input,
+.custom-textarea {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 100%;
+}
+
+/* Định dạng cho button */
+.custom-button {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* ProductNew.css */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Nền mờ */
+    z-index: 9999; /* Đảm bảo nó nằm trên tất cả các thành phần khác */
+}
+
+.image-preview {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.image-item img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
